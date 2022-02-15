@@ -1,5 +1,6 @@
 
 /* colors
+#434851 dark grey text;
 #14AAF5 blue button
 #C9D0D4 grey button
 #2CC6AB green bg
@@ -7,10 +8,18 @@
 #FF9B00 orange
 #EC4A9D fuchsia
 #A3D116 2nd green 
+#15ff00 green check
 #F6F8F9 bg ext. */
 
+body{
+    background-color: #F6F8F9;
+    margin: 0px;
+}
 
-/*** header ***/
+
+
+/*** HEADER ***/
+
 
 #site_header {
     background-color: white;
@@ -31,11 +40,71 @@
     vertical-align: middle;
 }
 
+/*** MAIN  ***/
+
+#site_main {
+    background-color:white;
+    margin: 3rem 20%;
+    height: 800px;
+    color:#434851;
+}
+
+#container_button{
+background-color: white;
+padding: 30px 100px 20px;
+
+}
+
+
+#b_blue{
+    background-color:#14AAF5;
+    border-radius: 7px;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+}
+
+#b_white{
+    background-color:white;
+    border-radius: 7px;
+    color: #C9D0D4;
+    padding: 11px 28px;
+    border: 0.15rem solid #C9D0D4;
+}
+
+#container_list{
+margin-top: 1rem;
+background-color: white;
+font-family:'Roboto', sans-serif;
+
+}
+    
+h2{
+    display: inline-block;
 
     
+}
 
+.check{
+    color:#15ff00;
+    border-radius: 50%;
+    border:0.15rem solid #15ff00;
+    padding:1px 5px;
+}
 
+h4{
+    display: inline-block;
+    margin-top: 0;
+}
 
+.secondary_button{
+    background-color:#14AAF5;
+    border-radius: 10px;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    
+}
 
 
 
