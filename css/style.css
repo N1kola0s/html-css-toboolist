@@ -72,12 +72,19 @@ padding: 30px 100px 20px;
     border: 0.15rem solid #C9D0D4;
 }
 
+section {
+    margin-left: 6rem;
+}
+
 #container_list{
 margin-top: 1rem;
 background-color: white;
 font-family:'Roboto', sans-serif;
+border-top: 2px solid #F6F8F9;
 
 }
+
+
     
 h2{
     display: inline-block;
@@ -89,6 +96,13 @@ h2{
     color:#15ff00;
     border-radius: 50%;
     border:0.15rem solid #15ff00;
+    padding:1px 5px;
+}
+
+.cross{
+    color:red;
+    border-radius: 50%;
+    border:0.15rem solid red;
     padding:1px 5px;
 }
 
@@ -104,6 +118,27 @@ h4{
     padding: 6px 10px;
     border: none;
     
+}
+
+#purple {
+    background-color:#AB5DE6;
+}
+
+#green {
+    background-color: #2CC6AB;
+}
+
+#orange {
+    background-color: #FF9B00;
+}
+
+#fuchsia {
+    background-color: #EC4A9D;
+}
+
+#secondgreen {
+
+    background-color: #A3D116;
 }
 
 
