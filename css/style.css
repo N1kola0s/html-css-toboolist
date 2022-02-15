@@ -1,0 +1,41 @@
+
+/* colors
+#14AAF5 blue button
+#C9D0D4 grey button
+#2CC6AB green bg
+#AB5DE6 purple
+#FF9B00 orange
+#EC4A9D fuchsia
+#A3D116 2nd green 
+#F6F8F9 bg ext. */
+
+
+/*** header ***/
+
+#site_header {
+    background-color: white;
+    display:block;
+}
+
+
+.logo {
+    height: 7rem;
+    vertical-align: middle;
+}
+
+#logotext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left:-15px;
+    vertical-align: middle;
+}
+
+
+    
+
+
+
+
+
+
